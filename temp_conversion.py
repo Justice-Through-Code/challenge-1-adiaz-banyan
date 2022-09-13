@@ -1,5 +1,5 @@
 def convert_100_to_celsius():
-    print(float((100 - 32) * (5 / 9)))
+    print(str((100 - 32) * (5 / 9)) + "\nfloat")
 
 
 convert_100_to_celsius()
@@ -13,7 +13,7 @@ convert_100_to_celsius()
 
 
 def convert_0_to_celsius():
-    print(float((0 - 32) * (5 / 9)))
+    print(float((-32) * (5 / 9)))
 
 
 convert_0_to_celsius()
