@@ -45,9 +45,9 @@ def convert_5_to_fahrenheit():
 
 
 def hotter_temp():
-    print(85.1)
+    print("30.2 degrees celsius")
 
 
-hotter_temp()
+# hotter_temp()
 # What is hotter, a temperature of 30.2 degrees celsius, or a temperature of 85.1 degrees fahrenheit?
 # Print out the hotter temp: '30.2 degrees celsius' or '85.1 degrees fahrenheit', respectively
