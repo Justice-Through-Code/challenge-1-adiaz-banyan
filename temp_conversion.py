@@ -57,3 +57,14 @@ hotter_temp()
 # hotter_temp()
 # What is hotter, a temperature of 30.2 degrees celsius, or a temperature of 85.1 degrees fahrenheit?
 # Print out the hotter temp: '30.2 degrees celsius' or '85.1 degrees fahrenheit', respectively
+
+def singleFuncToCelsius(temp_fahrenheit):
+    return (int(temp_fahrenheit) - 32) * 5/9
+
+
+def singleFuncToFahrenheit(temp_celsius):
+    return (int(temp_celsius) * 9/5) + 32
+
+
+print(singleFuncToCelsius(100))
+print(singleFuncToFahrenheit(100))
